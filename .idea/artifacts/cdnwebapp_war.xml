@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdnwebapp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdnwebapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdnwebapp-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cdnwebapp:war exploded" />
+    </root>
+  </artifact>
+</component>
